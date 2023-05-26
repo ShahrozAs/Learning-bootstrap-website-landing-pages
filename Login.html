@@ -49,19 +49,24 @@
         </ul>
 
 
-        <div class="d-flex align-items-center justify-content-center flex-column mt-5 pt-5">
+        <div class="d-flex align-items-center justify-content-center flex-column mt-3">
           <h3 class="mt-2">Welcome to Giihan</h3>
           <p>The faster you fill up, The faster you get a ticket</p>
 
-          <form action="">
-            <div class="mb-3">
-              <label class="form-check-label" for="email">Email:</label>
-              <input type="email" class="form-control me-xxl-5" id="email" placeholder="Enter email" name="email" />
+          <form action="" class="was-validated">
+            <div class="mb-3 mt-3">
+              <label for="uname" class="form-label">Username:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="mb-3">
-              <label class="form-check-label" for="pwd">Password:</label>
-              <input type="password" class="form-control me-xxl-5" id="pwd" placeholder="Enter password" name="pswd" />
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
             </div>
+        
    
             <div class="form-check mb-3">
               <label class="form-check-label pe-5">
