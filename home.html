@@ -12,128 +12,158 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ps-5 sticky - top">
+    <nav class="nav d-flex justify-content-around align-items-center sticky-top " style="background-color: #435D5E; height: 60px;">
         <div class="container-fluid">
-            <ul class="navbar-nav">
+            <ul class="nav d-flex justify-content-around align-items-center">
                 <li class="nav-item">
-
-                    <a class="navbar-brand" href="#">
-                        <img src="https://image.similarpng.com/very-thumbnail/2021/09/Beauty-women,natural-spa,-cosmetic,-logo-design-on-transparent-background-PNG.png"
-                            alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    <a class="navbar-brand text-light" href="#" >
+                        <img src="/lock-removebg-preview.png"
+                            alt="Avatar Logo" style="width:20px;" >
+                             <strong>LyfeVault</strong>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-3">Home</a>
+                <li class="nav-item d-flex">
+                    <a href="#" class="nav-link px-3 text-light"><strong>Home</strong>  </a>
+                    <a href="#" class="nav-link px-3 text-light"><strong>Shared Files</strong> </a>
                 </li>
+               
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-3">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-3">Serivces</a>
+                    <a class="navbar-brand text-light" href="#" >
+                        <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg"
+                            alt="Avatar Logo" style="width:30px;" class="rounded-circle" >
+                            Oxcha78yuer8923nhgaiopnx
+                    </a>
                 </li>
             </ul>
         </div>
 
     </nav>
 
-    <div class="container mt-5">
-        <h1>Personal Data Table</h1>
-       
-        <table class="mt-5 table table-hover table-responsive">
-            <thead class="table-dark">
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Email</th>
-                    <th>Select File</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Mr Sherry</td>
-                    <td>khan</td>
-                    <td>mr.sherry.793@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Ali Arif</td>
-                    <td>Mayo</td>
-                    <td>mralistudy@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Bilal</td>
-                    <td>Doger</td>
-                    <td>bilaldoger50@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Mr Sherry</td>
-                    <td>khan</td>
-                    <td>mr.sherry.793@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Ali Arif</td>
-                    <td>Mayo</td>
-                    <td>mralistudy@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Bilal</td>
-                    <td>Doger</td>
-                    <td>bilaldoger50@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Mr Sherry</td>
-                    <td>khan</td>
-                    <td>mr.sherry.793@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Ali Arif</td>
-                    <td>Mayo</td>
-                    <td>mralistudy@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Bilal</td>
-                    <td>Doger</td>
-                    <td>bilaldoger50@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Mr Sherry</td>
-                    <td>khan</td>
-                    <td>mr.sherry.793@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Ali Arif</td>
-                    <td>Mayo</td>
-                    <td>mralistudy@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-                <tr>
-                    <td>Bilal</td>
-                    <td>Doger</td>
-                    <td>bilaldoger50@gmail.com</td>
-                    <td><input type="file" name="file" id="file" accept=".pdf"></td>
-                </tr>
-      
-             
-            </tbody>
-        </table>
-
+    <div class="container d-flex justify-content-center mt-5" >
+        <button class="btn text-light w-25 p-3 rounded-4" type="button" style="background-color: #435D5E;">
+            <img style="filter: invert(100%);" src="/upload-removebg-preview.png" width="30" alt="">
+           <strong>Choose Files</strong> </button>
     </div>
 
+    <div class="container-fluid mt-5">
+        <table class="table table-hover table-bordered">
+            <thead class="table-secondary">
+              <tr>
+                <th>SR NO</th>
+                <th>FILE NAME</th>
+                <th>FILE TYPE</th>
+                <th>FILE ID</th>
+                <th>ACTION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>6</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>7</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>8</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>9</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+              <tr>
+                <td><strong>10</strong></td>
+                <td>Sample.pdf</td>
+                <td>application/pdf</td>
+                <td> Oxcha78yuer8923nhgaiopnx</td>
+                <td><button class="btn text-light rounded-3" type="button" style="background-color: #435D5E;">
+                    <img style="filter: invert(100%);" src="/share-removebg-preview.png" width="20" alt="">
+                    Share with others</button></td>
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+  
 
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-bottom">
-        <ul class="navbar-nav">
+
+    <nav class="nav d-flex justify-content-around  align-items-center fixed-bottom" style="background-color: #435D5E; height: 50px;">
+        <ul class="nav  d-flex justify-content-around align-items-center" >
             <li class="nav-item">
-                <a href="#" class="nav-link">Copyright by &copy; MrSherryLimited. All right Reserved!</a>
+                <a href="#" class="nav-link text-light">Copyright by &copy; MrSherryLimited. All right Reserved!</a>
+            </li>
+            <li class="nav-item d-flex">
+                <a href="#" class="nav-link px-3 text-light">About  </a>
+                <a href="#" class="nav-link px-3 text-light">Privacy Policy </a>
+                <a href="#" class="nav-link px-3 text-light">Contact Us</a>
             </li>
         </ul>
     </nav>
